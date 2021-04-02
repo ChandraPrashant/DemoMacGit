@@ -37,8 +37,10 @@ public class FreeCRMAccountPageTest extends ReadPropertyFile {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.get(prop.getProperty("freecrm.myaccount.url"));
 		Thread.sleep(2000);
+		System.out.println("mac1");
 		System.out.println("Local");
 		System.out.println("Test");
+		System.out.println("mac2");
 		System.out.println("Local");
 	}
 
