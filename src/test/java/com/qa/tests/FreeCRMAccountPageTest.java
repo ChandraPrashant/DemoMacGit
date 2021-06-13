@@ -36,8 +36,6 @@ public class FreeCRMAccountPageTest extends ReadPropertyFile {
 		driver.manage().timeouts().pageLoadTimeout(150, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get(prop.getProperty("freecrm.myaccount.url"));
-		System.out.println("Hello");
-		System.out.println("Hello");
 		
 	}
 
